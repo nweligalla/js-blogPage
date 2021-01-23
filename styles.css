@@ -63,3 +63,16 @@ textarea {
 .post a:hover{
   color: aqua;
 }
+
+.delete{
+  background-color: #36cca2;
+  color: #fff;
+  border: none;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.delete:hover{
+  background-color:cadetblue;
+}
