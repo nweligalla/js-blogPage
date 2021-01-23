@@ -9,6 +9,7 @@ body {
   margin: 100px auto;
   padding: 10px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -16,6 +17,7 @@ nav {
 nav h1 {
   margin: 0;
 }
+
 nav a {
   color: white;
   text-decoration: none;
@@ -23,9 +25,11 @@ nav a {
   padding: 10px;
   border-radius: 10px;
 }
+
 form {
   max-width: 500px;
 }
+
 input,
 textarea {
   display: block;
@@ -35,6 +39,27 @@ textarea {
   border: 1px solid #ddd;
   font-family: "Roboto";
 }
+
 textarea {
   min-height: 200px;
+}
+
+.post {
+  padding: 16px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.post h2 {
+  margin: 0;
+}
+
+.post a {
+  color: #39b491;
+  text-decoration: none;
+}
+
+.post a:hover{
+  color: aqua;
 }
